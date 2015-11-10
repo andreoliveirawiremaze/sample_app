@@ -10,4 +10,11 @@ module ApplicationHelper
     end
   end
   
+  def escrever(defer = '')
+    
+    final = defer.to_s.split('').shuffle.join
+    
+    "A nova string é algo do tipo #{final}"
+  end
+  
 end
