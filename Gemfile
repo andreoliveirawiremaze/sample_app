@@ -7,6 +7,12 @@ gem 'rails', '4.2.2'
 gem 'bcrypt', '3.1.7'
 #faler
 gem 'faker',  '1.4.2'
+
+#Image Upload
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.26.0'
+
 #will pagination
 gem 'will_paginate', '3.0.7'
 #bootstrap will pagination
